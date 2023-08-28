@@ -179,7 +179,7 @@ body {
 /* display none */
 
 #hero {
-    background-image: url(/img/hero4.png);
+    background-image: url(../img/hero4.png);
     height: 90vh;
     width: 100vw;
     max-width: 100%;
@@ -202,7 +202,7 @@ body {
 }
 
 #hero button {
-    background-image: url(/img/button.png);
+    background-image: url(../img/button.png);
     background-color: transparent;
     color: #088178;
     border: none;
@@ -224,14 +224,16 @@ body {
     -moz-border-radius: 4px;
     -ms-border-radius: 4px;
     -o-border-radius: 4px;
-    margin: 15px 0;
+    margin: 15px 12px;
+
 }
 
 #feature {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     align-items: center;
-    justify-content: space-between;
+
+
 }
 
 #feature .fe-box:hover {
@@ -371,7 +373,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-image: url(/img/banner/b2.jpg);
+    background-image: url(../img/banner/b2.jpg);
     background-position: center;
 }
 
@@ -410,7 +412,7 @@ body {
     justify-content: center;
     align-items: flex-start;
     text-align: center;
-    background-image: url(/img/banner/b17.jpg);
+    background-image: url(../img/banner/b17.jpg);
     min-width: 580px;
     height: 50vh;
     background-size: cover;
@@ -420,7 +422,7 @@ body {
 }
 
 #sm-banner .banner-box2 {
-    background-image: url(/img/banner/b10.jpg);
+    background-image: url(../img/banner/b10.jpg);
 }
 
 #sm-banner h4 {
@@ -460,7 +462,7 @@ body {
     justify-content: center;
     align-items: flex-start;
     text-align: center;
-    background-image: url(/img/banner/b7.jpg);
+    background-image: url(../img/banner/b7.jpg);
     min-width: 30%;
     height: 30vh;
     background-size: cover;
@@ -470,11 +472,11 @@ body {
 }
 
 #banner3 .banner-box2 {
-    background-image: url(/img/banner/b4.jpg);
+    background-image: url(../img/banner/b4.jpg);
 }
 
 #banner3 .banner-box3 {
-    background-image: url(/img/banner/b18.jpg);
+    background-image: url(../img/banner/b18.jpg);
 }
 
 #banner3 h2 {
@@ -494,7 +496,7 @@ body {
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    background-image: url("/img/banner/b14.png");
+    background-image: url("../img/banner/b14.png");
     background-repeat: no-repeat;
     background-position: 20% 30%;
     background-color: #041e42;
@@ -621,7 +623,7 @@ footer .copy {
 /* shop section */
 /* shop section */
 #shop {
-    background-image: url(/img/banner/b1.jpg);
+    background-image: url(../img/banner/b1.jpg);
     height: 40vh;
     width: 100vw;
     max-width: 100%;
@@ -742,7 +744,7 @@ footer .copy {
 /* ----------------------------------------BLOG PAGE */
 
 #shop.blog-header {
-    background-image: url("/img/banner/b19.jpg");
+    background-image: url("../img/banner/b19.jpg");
 }
 
 #blog {
@@ -825,7 +827,7 @@ footer .copy {
 /* ---------------------------about page */
 /* ---------------------------about page */
 #shop.about-header {
-    background-image: url("/img/about/banner.png");
+    background-image: url("../img/about/banner.png");
 }
 
 #about-head {
@@ -1225,6 +1227,7 @@ footer .copy {
 
     #feature {
         justify-content: center;
+        flex-wrap: wrap;
     }
 
     #feature .fe-box {
@@ -1301,12 +1304,12 @@ footer .copy {
     }
 
     #feature {
-        justify-content: space-between;
+        justify-content: center;
     }
 
     #feature .fe-box {
         width: 155px;
-        margin: 0 0 15px 0;
+        margin: 0 1rem 15px 0rem;
     }
 
     #product .pro-container {
