@@ -213,6 +213,11 @@ body {
     cursor: pointer;
 }
 
+#hero button a {
+    text-decoration: none;
+    color: #088178;
+}
+
 #feature .fe-box {
     width: 18rem;
     text-align: center;
@@ -289,6 +294,7 @@ body {
     justify-content: space-between;
     padding-top: 20px;
     flex-wrap: wrap;
+
 
 }
 
@@ -1271,7 +1277,14 @@ footer .copy {
         width: 50%;
     }
 
+    #product .pro-container {
+        margin-left: 4rem;
+
+
+    }
 }
+
+
 
 @media (max-width:477px) {
     .section-p1 {
@@ -1305,11 +1318,15 @@ footer .copy {
 
     #feature {
         justify-content: center;
+
+
+
     }
 
     #feature .fe-box {
         width: 155px;
-        margin: 0 1rem 15px 0rem;
+        margin: 0 5px 15px 0rem;
+
     }
 
     #product .pro-container {
